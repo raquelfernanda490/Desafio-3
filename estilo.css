@@ -7,7 +7,7 @@ body{
 
 }
 
-.container-header{
+.container_header{
     display: flex;
     justify-content: space-around;
     padding: 16px;
@@ -25,14 +25,14 @@ body{
     top: 0.1px;
 }
 
-.container-header section img{
+.container_header section img{
     height: 10vh;
     width: auto;
     align-content: center;
     /* justify-content:space-between; */
 }
 
-.container-nav ul{
+.container_nav ul{
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ body{
     margin: 1em;
 }
 
-.container-produto{
+.container_produto{
     margin: 100px 0 0 0;
     text-align: center;
     padding: 0.8em;
@@ -49,7 +49,7 @@ body{
 
     
 }
-.container-nav ul li a{
+.container_nav ul li a{
     text-decoration: none;
     color: #F2F2F2;
     padding: 1em;
@@ -57,13 +57,13 @@ body{
     font-size: 1.2em;
 }
 
-.container-nav ul li a:hover{
+.container_nav ul li a:hover{
     background-color: #F2F2F2;
     border-radius: 0.6em;
     color: #3B2122;
 }
 
-.container-section{
+.container_section{
     display:flex;
     flex-wrap: wrap;
     margin: 0 3em;
@@ -73,25 +73,21 @@ body{
     max-width: 100%;
 }
 
-.container-section-img:hover{
+.container_section_img:hover{
     filter:grayscale(100%);
     transition: .5 ease;
 }
-/* .container-main{
-    margin: 100px auto;
-} */
 
-.container-section-img{
+.container_section_img{
     margin: auto;
     width: 20vw;
-    /* max-width: 70%; */
     display: flex;
     transition: 0.3;
 
 }
 
 
-.container-sobre-div{
+.container_sobre_div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,24 +105,21 @@ h2{
 }
 
 
-.container-img{
+.container_img{
     width: 550px;
     height: 550px;
     border-radius: 50%;
 
 }
 
-.container-contato{
+.container_contato{
     text-align: center;
     width: 100%;
     color: #3B2122;
 }
 
-.container-contato-mapa{
+.container_contato_mapa{
     width: 100%;
-    /* margin-bottom: 1em;
-    margin-top: 1em; */
-
 }
 
 
