@@ -1,0 +1,150 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1px;
+    margin: auto;
+    background-color: #c2c0c0;
+
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #8C6849;
+    height: 10vh;
+    margin: auto;    
+    align-items: center;
+}
+
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0.1px;
+}
+
+.container-header section img{
+    height: 10vh;
+    width: auto;
+    align-content: center;
+    /* justify-content:space-between; */
+}
+
+.container-nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin: 1em;
+}
+
+.container-produto{
+    margin: 100px 0 0 0;
+    text-align: center;
+    padding: 0.8em;
+    font-size: 3em;
+    color: #3B2122;
+
+    
+}
+.container-nav ul li a{
+    text-decoration: none;
+    color: #F2F2F2;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.container-nav ul li a:hover{
+    background-color: #F2F2F2;
+    border-radius: 0.6em;
+    color: #3B2122;
+}
+
+.container-section{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 3em;
+    gap: 5em;
+    justify-content: center;
+    filter: brightness(60%);
+    max-width: 100%;
+}
+
+.container-section-img:hover{
+    filter:grayscale(100%);
+    transition: .5 ease;
+}
+/* .container-main{
+    margin: 100px auto;
+} */
+
+.container-section-img{
+    margin: auto;
+    width: 20vw;
+    /* max-width: 70%; */
+    display: flex;
+    transition: 0.3;
+
+}
+
+
+.container-sobre-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    padding: 3rem;
+    background-color:#86502A;
+    margin: 4em auto auto 0;
+    color: #F2F2F2;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+
+.container-img{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+
+}
+
+.container-contato{
+    text-align: center;
+    width: 100%;
+    color: #3B2122;
+}
+
+.container-contato-mapa{
+    width: 100%;
+    /* margin-bottom: 1em;
+    margin-top: 1em; */
+
+}
+
+
+footer{
+    background-color: #8C6849;
+    color: #F2F2F2;
+    height: 4vh;
+    font-size: 1em;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+address{
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    padding: 20px 0 ;
+}
+
